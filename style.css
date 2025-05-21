@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding-inline: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 1500px
+}
+
+.navigasi {
+    background-color: rgb(228, 134, 184);
+    width:100%;
+    height: 70px;
+    color: rgb(229, 231, 207);
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu {
+    margin-left: 800px;
+    padding-top: 27px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: black;
+    font-style: italic;
+}
+
+.banner {
+    background-color: rgb(233, 204, 228);
+    height:500px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.banner img {
+border-radius: 100px;
+height: 150px;
+border: 6px solid white ;
+margin-top: 100px;
+}
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border: none;
+}
+
+.box-pendidikan {
+    text-align: center;
+    color: rgb(196, 142, 110);
+    margin-top: 30px;
+    align-content: center;
+}
+
+.box-kiri,
+.box-tengah,
+.box-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: rgb(252, 217, 217);
+    text-align: center;
+    padding: 30px 20px;
+    margin: 70px 20px 20px 55px ;
+    float: left;
+}
+
+.box-kiri:hover,
+.box-tengah:hover,
+.box-kanan:hover {
+ background-color: rgb(233, 205, 221);
+ color: white;
+}
+
+.myskills {
+    text-align: center;
+    color: deeppink;
+    margin-top: 90px;
+}
+
+.skill-kiri,
+.skill-tengah,
+.skill-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: rgb(241, 184, 220);
+    text-align: center;
+    padding: 30px 20px;
+    margin: 70px 20px 20px 55px ;
+    float: left;
+}
+
+.skill-kiri:hover
+.skill-tengah:hover
+.skill-kanan:hover {
+    background-color: lightpink;
+    color: orchid;
+}
+
+.box-kontak {
+    text-align: center;
+    color: rgb(219, 108, 186);
+    margin-top: 600px;
+}
+
+.box-kontak img {
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
